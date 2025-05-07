@@ -1,0 +1,304 @@
+*{
+   margin:0 ;
+   padding:0;
+   box-sizing:border-box;
+   font-family:verdana;
+}
+
+.navbar-brand{
+ color:black !important;
+ font-weight: bolder;
+ font-size: 25px;
+ padding: 5px;
+}
+.navbar-nav li{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item a{
+  color:black !important;
+  font-size: 20px;
+  margin-left: 80px;
+
+}
+.navbar-toggle
+r{
+  background-color:white !important;
+}
+
+.nav-item a:hover{
+    color:#0096FF!important;
+}
+
+.anime-text{
+   padding:3%;
+}
+
+.anime-text p{
+  margin-top: 30px;
+}
+.anime {
+    position: relative;
+    top: 20%; 
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+   
+  }
+
+.anime h3{
+  font-size:25px;
+  font-weight: bolder;
+  margin-top: 20px; 
+}
+
+.anime{
+  animation: typewriter 4s steps(44) 1s 1 normal both;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width:90%;}
+}
+
+.anime-text a{
+  text-decoration: none;
+}
+
+.cont-icon{
+  width:40px ;
+  height: 40px; 
+  margin-top:50px;
+  cursor: pointer;
+}
+
+.profile{
+   padding:3% ;
+}
+
+.profile img{
+  width: 60%;
+  height:400px ;
+  margin-left: 20%;
+  border-radius:10%;
+  margin-top: 70px;
+}
+.project-container{
+  padding: 3%;
+}
+
+.project{
+  width: 25%;
+  height:250px ;
+  margin-left:5%;
+  float: left;
+  background-color: lightgrey;
+  border-radius:5% ;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.project img{
+  height: 30%;
+  width: 40%;
+  margin: 5% 0% 0% 30%;
+
+}
+
+.project-det{
+  height:55%;
+  width: 100%;
+ 
+}
+.project-det p{
+  margin-top:10px;
+  font-size: 17px;
+}
+
+.project-det h5{
+  text-align: center;
+  margin-top: 10px;
+}
+.about{
+  background-color:lightgrey;
+  padding: 3%;
+}
+
+.about-text h3{
+  font-size: 23px;
+  font-weight: bolder;
+  margin:4% 20% 4% 0%;
+}
+.about-text p{  
+  font-size:17px ;
+  margin:4% 20% 5% 0%;
+}
+
+.about-img img{
+  width:80%;
+  height:500px;
+  margin-left:10% ;
+
+}
+
+.creativity{
+  padding: 3%;
+}
+
+.creativity-img img{
+  width:80%;
+  height:500px ;
+  margin-left:10% ;
+
+}
+
+.creativity-card{
+  width: 45%;
+  height: 270px;
+  margin-left:3% ;
+  margin-top: 3%;
+  float: left;
+  padding: 3%;
+}
+
+.creativity-card img{
+  width:20% ;
+  height: 20%;
+}
+
+.creativity-card p{
+  font-size: 17px;
+}
+
+.creativity-card  h4{
+  font-size: 23px;
+  margin-top: 10px;
+}
+.technology{
+  background-color: lightgrey;
+  padding: 3% ;
+}
+
+    
+.tech{
+  width:20% ;
+  height:170px;
+  margin:3% 0% 0% 9% ;
+  float: left;
+}
+
+.tech img{
+  width: 100%;
+  height: 100%;
+}
+
+.footer{
+  padding: 3%;
+}
+  
+.f-list h3{
+  font-size:23px ;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.f-list li{
+  padding: 1%;
+  list-style: none;
+  font-size:18px ;
+}
+
+.f-list a{
+  text-decoration: none;
+} 
+.social-icon{
+  width:50px ;
+  height: 50px; 
+  margin-left:10px ;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 786px){
+
+.anime h3{
+  font-size:21px;
+}
+
+.profile img{
+  width: 60%;
+  height:220px ;
+  margin-left:20%;
+  border-radius:10%;
+}
+
+.project{
+  width:60% ;
+  height:180px ;
+  margin:3% 0% 0% 20%;
+}
+
+.project-det p{
+  margin-top:10px;
+  font-size: 13px;
+}
+
+.project-det h5{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.about-text h3{
+  font-size: 18px;
+  margin:4% 20% 4% 0%;
+}
+.about-text p{  
+  font-size:15px ;
+  margin:4% 20% 5% 0%;
+}
+
+.about-img img{
+  width:80%;
+  height:250px;
+  margin-left:10% ;
+
+}
+
+.creativity-img img{
+  width:80%;
+  height:250px ;
+  margin-left:10% ;
+}
+
+.creativity-card{
+  width: 60%;
+  height: 190px;
+  margin:3% 0% 3% 20% ;
+  padding: 3%;
+}
+
+.creativity-card img{
+  width:20% ;
+  height: 20%;
+}
+
+.creativity-card p{
+  font-size: 13px;
+}
+
+.creativity-card  h4{
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+
+.tech{
+  width:40% ;
+  height:170px;
+  margin:3% 0% 0% 30% ;
+  float: left;
+}
+
+.tech img{
+  width: 100%;
+  height: 100%;
+}
+}
